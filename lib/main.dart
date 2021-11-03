@@ -57,8 +57,6 @@ class _SelectThemeColorState extends State<SelectThemeColor> {
     setState(() {
       selectedColor = color;
     });
-
-    print(selectedColor);
   }
 
   @override
